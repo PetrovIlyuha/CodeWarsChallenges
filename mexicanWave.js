@@ -14,5 +14,4 @@ function wave(string) {
   return waveArray;
 }
 
-console.log(wave("hello"));
-console.log(wave("gap"));
+console.log(wave("hello")); // ["Hello", "hEllo", "heLlo", "helLo", "hellO"];
